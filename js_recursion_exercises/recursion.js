@@ -17,8 +17,7 @@ var expRec2 = function(b, n) {
   }
 };
 
-// fibsRec
-var fibsRec = function(n) {
+var fibonacci = function(n) {
   if (n === 0) {
     return [];
   } else if (n === 1) {
@@ -33,7 +32,6 @@ var fibsRec = function(n) {
   }
 };
 
-// bsearch
 var bsearch = function(numbers, target) {
   if (numbers.length === 0) {
     return -1;
@@ -56,7 +54,6 @@ var bsearch = function(numbers, target) {
   }
 };
 
-// makeChange
 var makeChange = function(target, coins) {
   if (target === 0) {
     return [];
