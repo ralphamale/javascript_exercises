@@ -1,16 +1,23 @@
+h1 {
+  font-family: sans-serif;
+}
+
 div.tower {
   float: left;
-  border: 1px solid black;
+  border: 5px solid black;
+  margin: 20px;
+  padding: 20px;
   height: 150px;
-  width: 300px;
+  position: relative;
+  width: 220px;
 }
 
 div.tower:hover {
-  background-color: grey;
+  background-color: #fff770;
 }
 
 div.tower.selected {
-  background-color: red;
+  background-color: #a9ff70;
 }
 
 div.disk {
@@ -23,16 +30,16 @@ div.disk.fake {
 }
 
 div.disk-1 {
-  width: 100px;
-  background-color: red;
+  width: 50px;
+  background-color: #c8c8c8;
 }
 
 div.disk-2 {
-  width: 200px;
-  background-color: green;
+  width: 120px;
+  background-color: #585858;
 }
 
 div.disk-3 {
-  width: 300px;
-  background-color: blue;
+  width: 220px;
+  background-color: #000;
 }
